@@ -12,11 +12,12 @@ Header style
     display: flex;
     background-color: black;
     border-radius: 20px;
-    padding: 20px 80px 80px 80px;
+    padding: 20px 80px 0px 80px;
     color: white;
 }
-.banner-image{
-    height: 5px;
+.banner-image img{
+    height: 430px;
+    padding-bottom: 0;
 }
 .link-button{
     text-decoration: none;
@@ -49,7 +50,7 @@ a{
 }
 .thumbnail img{
     height: 150px;
-    width: 220px;
+    width: 280px;
 }
 .blog-title{
     text-align: left;
@@ -100,7 +101,7 @@ footer part
 ------------*/
 footer{
     height: 180px;
-    width: 950px;
+    width: 1170px;
     margin: 0;
     padding-bottom: 50px;
 }
